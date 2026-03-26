@@ -133,5 +133,4 @@ examples/alert_samples/alert3.*
 !examples/event_samples/example_event.json
 !examples/workflow_samples/example_workflow.json
 # 事件报告
-*.md
 reports/
