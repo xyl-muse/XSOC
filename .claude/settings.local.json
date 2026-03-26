@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/models_tests/test_config.py -v)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m pytest tests/models_tests/test_config.py -v)",
+      "Bash(python3 -m pytest tests/utils_tests/ tests/models_tests/ -v)",
+      "Bash(python3 examples/workflow_samples/phase1_integration_test.py)",
+      "Bash(python3 -m PYTHONPATH=. examples/workflow_samples/phase1_integration_test.py)",
+      "Bash(set PYTHONPATH=%CD% && python examples/workflow_samples/phase1_integration_test.py)",
+      "Bash(set PYTHONPATH=%CD% && python3 examples/workflow_samples/phase1_integration_test.py)"
+    ]
+  }
+}
